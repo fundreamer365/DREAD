@@ -1,0 +1,9 @@
+{
+  "speed": { "walk": 3.4, "run": 5.9, "crouch": 1.7, "mPatrol": 2.2, "mInv": 3.4, "mChase": 4.7, "mEvac": 6.3 },
+  "vision": { "range": 26, "fov": 110 },
+  "quality": {
+    "low":    { "pr": 1,    "lights": 3, "shadow": false },
+    "medium": { "pr": 1.25, "lights": 4, "shadow": false },
+    "high":   { "pr": 2,    "lights": 5, "shadow": true }
+  }
+}

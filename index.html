@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DREAD</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="hud" class="hidden">
+ <div id="obj"></div><div id="prompt"></div><div id="toast"></div><div id="stam"><i id="stamb"></i></div>
+ <div id="hint">WASD move &middot; Shift run &middot; C / Ctrl crouch &middot; Space jump &middot; E interact &middot; F flashlight &middot; Esc pause</div>
+</div>
+<div id="flash"></div><div id="fade"></div>
+<div id="menu" class="screen"><h1>DREAD</h1><p>You wake up alone in a research complex. Something very large is walking its halls. Find the fuse, restore the power, reach the evacuation exit. Do not run unless you must.</p>
+ <button id="bStart">Start</button><button id="bSet">Settings</button><p class="small">Headphones recommended. The mouse will be captured.</p><p id="lockmsg" class="small"></p></div>
+<div id="pause" class="screen hidden"><h2>Paused</h2><button id="bRes">Resume</button><button id="bSet2">Settings</button><button id="bRest">Restart</button></div>
+<div id="dead" class="screen hidden"><h2>It found you</h2><button id="bRetry">Try again</button></div>
+<div id="win" class="screen hidden"><h2>You escaped</h2><p>The doors seal behind you. Behind them, something is still listening.</p><button id="bAgain">Play again</button></div>
+<div id="settings" class="screen hidden"><h2>Settings</h2>
+ <label>Master volume<input type="range" id="sMaster" min="0" max="100"></label>
+ <label>Monster volume<input type="range" id="sMon" min="0" max="100"></label>
+ <label>Ambient volume<input type="range" id="sAmb" min="0" max="100"></label>
+ <label>Mouse sensitivity<input type="range" id="sSens" min="30" max="250"></label>
+ <label>View distance<input type="range" id="sView" min="50" max="150"></label>
+ <label>Graphics quality<select id="sQ"><option value="low">Low</option><option value="medium">Medium</option><option value="high">High (shadows)</option></select></label>
+ <label class="row">Camera effects (bob, shake)<input type="checkbox" id="sFx"></label>
+ <button id="bBack">Back</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="game.js"></script>
+</body></html>

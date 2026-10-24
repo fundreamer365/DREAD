@@ -1,0 +1,15 @@
+{
+  "volume": { "master": 0.8, "monster": 1.0, "ambient": 0.7 },
+  "monster": {
+    "sounds": {
+      "idle":      { "type": "procedural", "enabled": true },
+      "breathing": { "type": "procedural", "enabled": true },
+      "growl":     { "type": "procedural", "enabled": true },
+      "detection": { "type": "procedural", "enabled": true, "volume": 0.9, "cooldown": 8 },
+      "chase":     { "type": "procedural", "enabled": true },
+      "attack":    { "type": "procedural", "enabled": true },
+      "step":      { "type": "procedural", "enabled": true }
+    }
+  },
+  "_example_custom_file": { "detection": { "type": "file", "src": "https://example.com/monster-scream.mp3", "volume": 0.9, "cooldown": 8 } }
+}

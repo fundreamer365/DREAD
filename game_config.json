@@ -1,8 +1,0 @@
-{
-  "game": {"title": "DREAD", "version": "1.0.0"},
-  "player": {"height": 1.8, "crouchHeight": 1.0, "walkSpeed": 4.0, "runSpeed": 7.0, "crouchSpeed": 2.0, "jumpForce": 5.0, "gravity": 12.0, "mouseSensitivity": 0.002, "fov": 75, "runFov": 85},
-  "monster": {"height": 3.5, "walkSpeed": 3.5, "chaseSpeed": 6.5, "detectionDistance": 15.0, "hearingDistance": 20.0, "fieldOfView": 120, "attackDistance": 2.5, "searchTime": 15.0, "lostPlayerTime": 10.0},
-  "level": {"corridorWidth": 3.0, "corridorHeight": 3.5, "roomSize": [8, 8], "wallThickness": 0.3},
-  "audio": {"masterVolume": 0.8, "monsterVolume": 0.7, "environmentVolume": 0.5, "enableSpatialAudio": true},
-  "graphics": {"quality": "medium", "shadows": true, "fog": true, "fogDensity": 0.08, "fogColor": "#1a1a2e"}
-}
